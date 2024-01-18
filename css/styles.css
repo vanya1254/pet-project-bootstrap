@@ -22,6 +22,12 @@ body {
   margin-top: 66px !important;
 }
 
+@media (max-width: 424px) {
+  .jumbotron-title {
+    font-size: 3.5rem;
+  }
+}
+
 .area {
   position: relative;
   background-color: transparent;
