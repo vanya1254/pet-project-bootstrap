@@ -22,6 +22,19 @@ body {
   margin-top: 66px !important;
 }
 
+body {
+  min-height: 100vh;
+  position: relative;
+  margin: 0;
+  padding-bottom: 51px;
+  box-sizing: border-box;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 51px;
+}
+
 @media (max-width: 424px) {
   .jumbotron-title {
     font-size: 3.5rem;
